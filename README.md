@@ -10,8 +10,11 @@ ADSL拨号服务器操作:
 $！: 先安装centos 7.6 
 
 #1. 先安装一个代理服务器 我习惯用gost 开一个socks5 服务 具体教程可以去网上查 记住连接信息 端口比方说设置 5555 
+
 #2. 然后配置好pppoe 拨号 这没什么说的 不会可以去网上查..
+
 #3. 然后 安装frpc 并将frpc.ini 按你搭建的VPS frps信息配置 并将本地的 5555端口反向代理到VPS的5555端口 并配置好systemd
+
 #4. 将frp.sh 复制到root 目录下 用 chmod +x /root/frp.sh 赋予可执行权限,再bash /root/frp.sh 每执行一下脚本就切换一个IP
 
 
