@@ -1,2 +1,2 @@
-# Designing-And-Developing-for-GIS
-A professional required course for the major of geographic information science. The course content is mainly for the development of WebGIS. The reference book is the development guide for ArcGIS API for JavaScript.
+# 一个用于拨号服务器的IP切换脚本
+由于本人功力有限 动机也仅仅是出于分享
